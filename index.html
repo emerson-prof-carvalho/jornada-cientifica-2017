@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>V Jornada da Computação e Educação</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/countdown.css">
+	<link rel="stylesheet" href="estilo.css">
+
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/lightbox.js"></script>
+	<script src="js/wow.min.js"></script>
+    <script src="js/jquery.downCount.js"></script>
+	<script src="js/smooth_navigation.js"></script>
+	<script src="js/btn-topo.js"></script>
+	<script src="js/slide_menu.js"></script>
+	
+	<script>
+		new WOW().init();
+	</script>
+</head>
+<body>
+
+<div id="topo" style="display:none;"><img src="imagens/seta_cima.png"></div>
+
+<div id="page" class="container-fluid">
+
+<!-- START MENU BAR -->	
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menubar"  aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<figure class="navbar-brand wow pulse" data-wow-delay="300ms" data-wow-iteration="infinite" data-wow-duration="2s"><img src="imagens/logo60anos01.png"></figure>
+		</div>
+
+		<div id="menubar" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="#page">HOME</a></li>
+				<li><a href="#agenda">AGENDA</a></li>
+				<li><a href="#professores">PROFESSORES</a></li>
+				<li><a href="#galeria">GALERIA</a></li>
+				<li><a href="#patrocinio">PATROCINADORES</a></li>
+				<li><a href="#contato">CONTATO</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<!-- END MENU BAR -->
+
+<!-- START BANNER -->
+<header id="banner" class="row">
+	<div>
+		<img src="imagens/logo1.png" class="img-responsive center-block">
+		<h1 class="text-uppercase text-center">V jornada da computação e educação</h1>
+		<h2 class="text-uppercase text-center"><span class="glyphicon glyphicon-calendar"></span> 14 a 18 MAIO 2018</h2>
+		<h2 class="text-uppercase text-center"><span class="glyphicon glyphicon-map-marker"></span> IFSULDEMINAS Campus Machado</h2>
+		<p class="text-center">Rodovia Machado - Paraguaçu, km 3<br> Bairro Santo Antônio <br> Machado - MG</p>
+	</div>
+</header>
+<!-- END BANNER -->	
+
+<!-- START CONTADOR -->
+<section id="contador" class="row text-center">
+	<h2 class="text-uppercase">faltam:</h2>
+	<div class="container clock">
+		<ul class="countdown">
+			<li>
+				<span class="days">00</span>
+				<p class="days_ref">dias</p>
+			</li>
+			<!--<li class="seperator">.</li>-->
+			<li class="clockleft">
+				<span class="hours">00</span>
+				<p class="hours_ref">horas</p>
+			</li>
+			<!--<li class="seperator">.</li>-->
+			<li class="clockleft">
+				<span class="minutes">00</span>
+				<p class="minutes_ref">minutos</p>
+			</li>
+			<!--<li class="seperator">.</li>-->
+			<li class="clockleft">
+				<span class="seconds">00</span>
+				<p class="seconds_ref">segundos</p>
+			</li>
+		</ul>
+
+		<script class="" type="text/javascript">
+			$('.countdown').downCount({
+				date: '05/14/2018 13:00:00',
+			}, function() {
+			});
+		</script>
+
+	</div>
+</section>
+<!-- END CONTADOR -->
+
+<!-- START AGENDA -->
+<section id="agenda" class="row">
+	<h2 class="text-center text-uppercase wow bounceInLeft">agenda</h2>
+	<p class="text-center">Veja como foi a última edição.</p>
+
+	<ul class="nav nav-tabs nav-pills nav-justified">
+		<li class="active"><a href="#segunda" data-toggle="tab">15/05/17 - SEGUNDA</a></li>
+		<li><a href="#terca" data-toggle="tab">16/05/17 - TERÇA</a></li>
+		<li><a href="#quarta" data-toggle="tab">17/05/17 - QUARTA</a></li>
+		<li><a href="#quinta" data-toggle="tab">18/05/17 - QUINTA</a></li>
+		<li><a href="#sexta" data-toggle="tab">19/05/17 - SEXTA</a></li>
+	</ul>
+
+	<!-- segunda -->
+<div class="tab-content">	
+	<table id="segunda" class="tab-pane active text-center table table-hover table-responsive table-striped table-bordered">
+		<thead>
+			<tr>
+				<th class="col1">Horário</th>
+				<th class="col2">Tipo</th>
+				<th class="col3">Com</th>
+				<th class="col4">Tema</th>
+				<th class="col5">Local</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>13:00</td>
+				<td>Palestra</td>
+				<td>Mário Cabral Neiva</td>
+				<td>Do advento do Algorítmo até a quarta Revolução Industrial</td>
+				<td>Centro de Excelência (apoio <a href="http://www.axtelecom.com.br/">Axtelecom</a>)</td>
+			</tr>
+			<tr>
+				<td>19:00</td>
+				<td>Palestra</td>
+				<td>Adauto Mendes Bernardes Júnior</td>
+				<td>Publicidade na Internet</td>
+				<td>Espaço Cultural</td>
+			</tr>
+			<tr>
+				<td>20:30</td>
+				<td>Palestra</td>
+				<td>Celso de Ávila Ramos</td>
+				<td>Internet das Coisas: a vida conectada</td>
+				<td>Espaço Cultural</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<!-- terca -->
+	<table id="terca" class="tab-pane text-center table table-hover table-responsive table-striped table-bordered">
+		<thead>
+			<tr>
+				<th class="col1">Horário</th>
+				<th class="col2">Tipo</th>
+				<th class="col3">Com</th>
+				<th class="col4">Tema</th>
+				<th class="col5">Local</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>08:00</td>
+				<td>Palestra</td>
+				<td>Aracele Garcia de Oliveira Fassbinder</td>
+				<td>Computação na Educação: Desafios e Oportunidades</td>
+				<td>Centro de Excelência (apoio <a href="http://www.axtelecom.com.br/">Axtelecom</a>)</td>
+			</tr>
+			<tr>
+				<td>09:30</td>
+				<td>Palestra</td>
+				<td>Anderson Kennedy Batista</td>
+				<td>Intercâmbio Estudantil e Cultural</td>
+				<td>Centro de Excelência (apoio <a href="http://www.axtelecom.com.br/">Axtelecom</a>)</td>
+			</tr>
+			<tr>
+				<td>13:00</td>
+				<td>Mini Curso</td>
+				<td>Aracele Garcia de Oliveira Fassbinder</td>
+				<td>Construção de Projeto de Aprendizagem para Cursos Abertos, Online e Massivos (MOOCs)</td>
+				<td>Laboratório I</td>
+			</tr>
+			<tr>
+				<td>13:00</td>
+				<td>Mini Curso</td>
+				<td>Gustavo Lopes Dominguete</td>
+				<td>Introdução para desenvolvimento Android utilizando Android Studio</td>
+				<td>Laboratório II</td>
+			</tr>
+			<tr>
+				<td>13:00</td>
+				<td>Mini Curso</td>
+				<td>Rosana Aparecida Moreira<br>Cassiana Ribas da Silva<br>Yuri Silveira Maciel<br>Luís Felipe Gonçalves Ferreira</td>
+				<td>Automação com Arduino e Scratch </td>
+				<td>Laboratório III</td>
+			</tr>
+			<tr>
+				<td>13:00</td>
+				<td>Mini Curso</td>
+				<td>Júlio Gurgel</td>
+				<td>Introdução à plataforma Adobe Photoshop CS6</td>
+				<td>Laboratório IV</td>
+			</tr>
+			<tr>
+				<td>13:00</td>
+				<td>Mini Curso</td>
+				<td>Caio Cézar Dias </td>
+				<td>Orientação a Objetos na Prática: abrindo sua mente.</td>
+				<td>Laboratório V</td>
+			</tr>
+			<tr>
+				<td>19:00</td>
+				<td>Palestra</td>
+				<td>Barbara Barbosa de Oliveira</td>
+				<td>Metodologia ágil: SCRUM</td>
+				<td>Espaço Cultural</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<!-- quarta -->
+	<table id="quarta" class="tab-pane text-center table table-hover table-responsive table-striped table-bordered">
+		<thead>
+			<tr>
+				<th class="col1">Horário</th>
+				<th class="col2">Tipo</th>
+				<th class="col3">Com</th>
+				<th class="col4">Tema</th>
+				<th class="col5">Local</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>08:00</td>
+				<td>Palestra</td>
+				<td>Flávia Emery Pereira Sudário</td>
+				<td>Modelagem Matemática da Cominuição de uma Mistura Binária</td>
+				<td>Centro de Excelência (apoio <a href="http://www.axtelecom.com.br/">Axtelecom</a>)</td>
+			</tr>
+			<tr>
+				<td>09:30</td>
+				<td>Palestra</td>
+				<td>Rodrigo Luciano Costa</td>
+				<td>Computação nas Nuvens</td>
+				<td>Centro de Excelência (apoio <a href="http://www.axtelecom.com.br/">Axtelecom</a>)</td>
+			</tr>
+			<tr>
+				<td>13:00</td>
+				<td>Mini Curso</td>
+				<td>Alexandre Norberto</td>
+				<td>Introdução à Linguagem Python</td>
+				<td>Laboratório I</td>
+			</tr>
+			<tr>
+				<td>13:00</td>
+				<td>Mini Curso</td>
+				<td>Jéssica Alves de Lima Venâncio<br>Renan Silva Pinto</td>
+				<td>Metodologia Ágeis</td>
+				<td>Laboratório II</td>
+			</tr>
+			<tr>
+				<td>13:30</td>
+				<td>Mostra</td>
+				<td>Matheus Eloy Franco</td>
+				<td>Mostra de projetos do Grupo Automação e Robótica</td>
+				<td>Laboratório III</td>
+			</tr>
+			<tr>
+				<td>19:00</td>
+				<td>Mini Curso</td>
+				<td>Renan Borges Martins<br>Davi Martins de Sousa<br> Gustavo Mesquita Neves<br>Matheus Eloy Franco</td>
+				<td>Introdução à Automação com Arduino</td>
+				<td>Laboratório I</td>
+			</tr>
+			<tr>
+				<td>19:00</td>
+				<td>Mini Curso</td>
+				<td>Brenno Matheus De Melo Barra<br>Carine Silveira Francisco<br>Marcelo Felipe da Luz<br>Maria Raquel Gonçalves Della Torre</td>
+				<td>Robótica Móvel com Lego MindStorms</td>
+				<td>Laboratório III</td>
+			</tr>
+			<tr>
+				<td>19:00</td>
+				<td>Mini Curso</td>
+				<td>Naira Aparecida Batista Gouveia<br>Dione Washington Chaves Querino</td>
+				<td>Identificação de Componentes e Montagem de Computadores</td>
+				<td>Laboratório IV</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<!-- quinta -->
+	<table id="quinta" class="tab-pane text-center table table-hover table-responsive table-striped table-bordered">
+		<thead>
+			<tr>
+				<th class="col1">Horário</th>
+				<th class="col2">Tipo</th>
+				<th class="col3">Com</th>
+				<th class="col4">Tema</th>
+				<th class="col5">Local</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>08:00</td>
+				<td>Palestra</td>
+				<td>Guilherme Aquino</td>
+				<td>Você tem a visão de um Empreendedor?</td>
+				<td>Centro de Excelência<br>(apoio <a href="http://www.axtelecom.com.br/">Axtelecom</a>)</td>
+			</tr>
+			<tr>
+				<td>13:00</td>
+				<td>Mini Curso</td>
+				<td>Guilherme Aquino</td>
+				<td>Laravel. O sonho do programador PHP.</td>
+				<td>Laboratório I</td>
+			</tr>
+			<tr>
+				<td>13:00</td>
+				<td>Mini Curso</td>
+				<td>Denis Antônio Rocha<br>Lucas Freitas</td>
+				<td>Design Responsivo com Bootstrap</td>
+				<td>Laboratório II</td>
+			</tr>
+			<tr>
+				<td>13:00</td>
+				<td>Mini Curso</td>
+				<td>Priscila Ligabó Murarolli</td>
+				<td>Tecnologias Inclusivas</td>
+				<td>Laboratório II</td>
+			</tr>
+			<tr>
+				<td>19:00</td>
+				<td>Palestra</td>
+				<td>Silvia Maria Medeiros Caporale</td>
+				<td>Profissão Professor</td>
+				<td>Espaço Cultural</td>
+			</tr>
+
+			<tr>
+				<td>20:30</td>
+				<td>Apresentação de Trabalhos</td>
+				<td>Autores dos trabalhos</td>
+				<td>Apresentação dos trabalhos submetidos  à IV Jornada da Computação e Educação do IFSULDEMINAS Campus Machado</td>
+				<td>Espaço Cultural</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<!-- sexta -->
+	<table  id="sexta" class="tab-pane text-center table table-hover table-responsive table-striped table-bordered">
+		<thead>
+			<tr>
+				<th class="col1">Horário</th>
+				<th class="col2">Tipo</th>
+				<th class="col3">Com</th>
+				<th class="col4">Tema</th>
+				<th class="col5">Local</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>	
+				<td>08:00</td>
+				<td>Palestra</td>
+				<td>Desnes Augusto Nunes do Rosário</td>
+				<td>Desenvolvimento Open Source e Mercado de Trabalho</td>
+				<td>Centro de Excelência (apoio <a href="http://www.axtelecom.com.br/">Axtelecom</a>)</td>
+			</tr>
+			<tr>	
+				<td>09:30</td>
+				<td>Palestra</td>
+				<td>Ricardo Emerson Julio</td>
+				<td>Robôs Autônomos: Desafios e Pesquisas na Área de Robótica</td>
+				<td>Centro de Excelência (apoio <a href="http://www.axtelecom.com.br/">Axtelecom</a>)</td>
+			</tr>
+		</tbody>
+	</table>
+</div>	
+</section>
+<!-- END AGENDA -->
+
+<!-- START PROFESSORES -->
+<section id="professores" class="row">
+	<h2 class="text-center text-uppercase wow bounceInRight">professores</h2>
+	<p class="text-center texto">Veja quanta gente passou por aqui.</p>
+
+	<div id="slideshow" class="container carousel slide" data-ride="carousel"">
+		<ul class="carousel-indicators">
+			<li data-target="#slideshow" data-slide-to="0" class="active"></li>		
+			<li data-target="#slideshow" data-slide-to="1"></li>
+			<li data-target="#slideshow" data-slide-to="2"></li>
+			<li data-target="#slideshow" data-slide-to="3"></li>
+			<li data-target="#slideshow" data-slide-to="4"></li>
+			<li data-target="#slideshow" data-slide-to="5"></li>
+			<li data-target="#slideshow" data-slide-to="6"></li>
+			<li data-target="#slideshow" data-slide-to="7"></li>
+			<li data-target="#slideshow" data-slide-to="8"></li>
+			<li data-target="#slideshow" data-slide-to="9"></li>
+			<li data-target="#slideshow" data-slide-to="10"></li>
+		</ul>
+
+		<div class="carousel-inner">
+			<div class="item active text-center palestrantes">
+				<div class="col-md-4">
+					<img src="imagens/profs/alexandre.jpg" class="img-responsive img-circle center-block">
+					<h3 >Alexandre Norberto</h3>
+					<p>Professor da Universidade Vale do Rio Verde (UNINCOR) de Três Corações.</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="imagens/speakers/aracele.jpg" class="img-responsive img-circle center-block">
+					<h3>Aracele Garcia</h3>
+					<p>Professora no IFSULDEMINAS Campus Muzambinho.</p>
+				</div>
+			
+				<div class="col-md-4">
+					<img src="imagens/profs/brenno.jpg" class="img-responsive img-circle center-block">
+					<h3>Brenno Barra</h3>
+					<p>Graduando Licenciatura em Computação IFSULDEMINAS Campus Machado.</p>
+				</div>
+			</div>
+
+			<div class="item text-center palestrantes">
+				<div class="col-md-4">
+					<img src="imagens/profs/caio.jpg" class="img-responsive img-circle center-block">
+					<h3>Caio Dias</h3>
+					<p>Graduando em Sistemas de Informação.</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="imagens/profs/carine.jpg" class="img-responsive img-circle center-block">
+					<h3>Carine Silveira</h3>
+					<p>Graduanda em Sistemas de Informação.</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="imagens/profs/cassiana.jpg" class="img-responsive img-circle center-block">
+					<h3>Cassiana Ribas</h3>
+					<p>Graduanda em Licenciatura em Computação IFSULDEMINAS Campus Machado.</p>
+				</div>
+			</div>
+
+			<div class="item text-center palestrantes">
+				<div class="col-md-4">
+					<img src="imagens/profs/denis.jpg" class="img-responsive img-circle center-block">
+					<h3>Denis Rocha</h3>
+					<p>Graduando em Sistemas de Informação.</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="imagens/profs/dione.jpg" class="img-responsive img-circle center-block">
+					<h3>Dione Chaves</h3>
+					<p>Graduando em Licenciatura em Computação.</p>
+				</div>
+		
+				<div class="col-md-4">
+					<img src="imagens/speakers/aquino.jpg" class="img-responsive img-circle center-block">
+					<h3>Guilherme Aquino</h3>
+					<p>Project Manager &amp; Full Stack Web Developer na <a href="http://www.boon.pet" target="_blank"><strong>Boon.pet</strong></a>.</p>
+				</div>
+			</div>
+
+			<div class="item text-center palestrantes">
+				<div class="col-md-4">
+					<img src="imagens/profs/gustavo.jpg" class="img-responsive img-circle center-block">
+					<h3 >Gustavo Lopes</h3>
+					<p>Analista de Sistemas no LEMAF.</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="imagens/profs/jessica.jpg" class="img-responsive img-circle center-block">
+					<h3>Jéssica Venancio</h3>
+					<p>Graduanda em Sistemas de Informação.</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="imagens/profs/julio.jpg" class="img-responsive img-circle center-block">
+					<h3>Júlio Gurgel</h3>
+					<p>Aluno do curso Técnico em Informática IFSULDEMINAS campus Machado.</p>
+				</div>
+			</div>
+			
+			<div class="item text-center palestrantes">
+				<div class="col-md-4">
+					<img src="imagens/profs/lucas.jpg" class="img-responsive img-circle center-block">
+					<h3>Lucas Freitas</h3>
+					<p>Graduando em Sistemas de Informação.</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="imagens/profs/marcelo.jpg" class="img-responsive img-circle center-block">
+					<h3>Marcelo Luz</h3>
+					<p>Graduando em Sistemas de Informação.</p>
+				</div>
+			
+				<div class="col-md-4">
+					<img src="imagens/profs/matheus.jpg" class="img-responsive img-circle center-block">
+					<h3>Matheus Franco</h3>
+					<p>Professor no IFSULDEMINAS Campus Machado.</p>
+				</div>
+			</div>
+
+			<div class="item text-center palestrantes">
+				<div class="col-md-4">
+					<img src="imagens/profs/naira.jpg" class="img-responsive img-circle center-block">
+					<h3>Naira Gouveia</h3>
+					<p>Graduanda em Licenciatura em Computação.</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="imagens/profs/priscila.jpg" class="img-responsive img-circle center-block">
+					<h3>Priscila Murarolli</h3>
+					<p>Professora da Universidade Vale do Rio Verde (UNINCOR) de Três Corações.</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="imagens/profs/raquel.jpg" class="img-responsive img-circle center-block">
+					<h3>Raquel Della Torre</h3>
+					<p>Graduanda em Sistemas de Informação.</p>
+				</div>
+			</div>
+
+			<div class="item text-center palestrantes">
+				<div class="col-md-4">
+					<img src="imagens/profs/renan_b.jpg" class="img-responsive img-circle center-block">
+					<h3>Renan Martins</h3>
+					<p>Graduando em Ciência da Computação pela UNIFAL.</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="imagens/profs/renan.jpg" class="img-responsive img-circle center-block">
+					<h3>Renan Silva</h3>
+					<p>Graduando em Sistemas de Informação.</p>
+				</div>
+
+				<div class="col-md-4">
+				<img src="imagens/profs/rosana.jpg" class="img-responsive img-circle center-block">
+				<h3>Rosana Moreira</h3>
+				<p>Graduanda em Licenciatura em Computação IFSULDEMINAS Campus Machado.</p>
+				</div>
+			</div>
+
+			<div class="item text-center palestrantes">
+				<div class="col-md-4">
+					<img src="imagens/speakers/adauto.jpg" class="img-responsive img-circle center-block">
+					<h3>Adauto Mendes</h3>
+					<p>Professor da Universidade Vale do Rio Verde (UNINCOR) de Três Corações.</p>
+				</div>
+		
+				<div class="col-md-4">
+					<img src="imagens/speakers/anderson.jpg" class="img-responsive img-circle center-block">
+					<h3>Anderson Batista</h3>
+					<p>Diretor Regional da AFS Intercultura Brasil.</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="imagens/speakers/barbara.jpg" class="img-responsive img-circle center-block">
+					<h3>Barbara Oliveira</h3>
+					<p>Analista de Sistemas no LEMAF.</p>
+				</div>
+			</div>
+
+			<div class="item text-center palestrantes">
+				<div class="col-md-4">
+					<img src="imagens/speakers/celso.jpg" class="img-responsive img-circle center-block">
+					<h3>Celso Ávila</h3>
+					<p>Professor de Ciência da Computação na Universidade José do Rosário Vellano.</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="imagens/speakers/desnes.jpg" class="img-responsive img-circle center-block">
+					<h3>Desnes Rosário</h3>
+					<p>Software Engineer na IBM Brasil.</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="imagens/speakers/flavia.jpg" class="img-responsive img-circle center-block">
+					<h3>Flávia Emery</h3>
+					<p>Professora na Faculdade Pitágoras de Belo Horizonte.</p>
+				</div>
+			</div>
+
+			<div class="item text-center palestrantes">
+				<div class="col-md-4">
+					<img src="imagens/speakers/mario.jpg" class="img-responsive img-circle center-block">
+					<h3>Mário Neiva</h3>
+					<p>BSEE pela EPUSP; MSEE em Monterrey, CA, EUA; Consultor e Perito na Área de Engenharia Elétrica.</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="imagens/speakers/rej.jpg" class="img-responsive img-circle center-block">
+					<h3>Ricardo Emerson</h3>
+					<p>Doutorando em Engenharia Elétrica pela Universidade Federal de Itajubá.</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="imagens/speakers/rodrigo.jpg" class="img-responsive img-circle center-block">
+					<h3>Rodrigo Costa</h3>
+					<p>Pesquisa e Desenvolvimento de Aplicações na R-One - Think Diferent.</p>
+				</div>
+			</div>
+
+			<div class="item text-center palestrantes">
+				<div>
+					<img src="imagens/speakers/silvia.jpg" class="img-responsive img-circle center-block">
+					<h3>Silvia Caporale</h3>
+					<p>Professora de Matemática na Universidade Federal de Lavras (UFLA).</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- END PROFESSORES -->
+
+<!-- START GALERIA -->
+<section id="galeria" class="row">
+	<h2 class="text-center text-uppercase wow zoomIn">Galeria de imagens</h2>
+
+	<div class="container">
+		<a href="galeria/foto-001.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-001.jpg"></a>
+		<a href="galeria/foto-002.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-002.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-003.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-003.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-004.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-004.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-005.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-005.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-006.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-006.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-007.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-007.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-008.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-008.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-009.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-009.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-010.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-010.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-011.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-011.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-012.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-012.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-013.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-013.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-014.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-014.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-015.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-015.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-016.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-016.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-017.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-017.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-018.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-018.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-019.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-019.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-020.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-020.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-021.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-021.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-022.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-022.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-023.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-023.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-024.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-024.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-025.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-025.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-026.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-026.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-027.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-027.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-028.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-028.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-029.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-029.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-030.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-030.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-031.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-031.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-032.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-032.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-033.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-033.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-034.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-034.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-035.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-035.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-036.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-036.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-037.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-037.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-038.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-038.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-039.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-039.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-040.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-040.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-041.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-041.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-042.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-042.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-043.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-043.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-044.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-044.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-045.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-045.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-046.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-046.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-047.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-047.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-048.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-048.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-049.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-049.jpg" class="img-responsive center-block"></a>
+		<a href="galeria/foto-050.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-050.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-051.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-051.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-052.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-052.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-053.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-053.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-054.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-054.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-055.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-055.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-056.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-056.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-057.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-057.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-058.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-058.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-059.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-059.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-060.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-060.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-061.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-061.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-062.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-062.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-063.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-063.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-064.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-064.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-065.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-065.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-066.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-066.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-067.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-067.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-068.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-068.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-069.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-069.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-070.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-070.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-071.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-071.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-072.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-072.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-073.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-073.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-074.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-074.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-075.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-075.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-076.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-076.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-077.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-077.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-078.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-078.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-079.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-079.jpg" class="img-responsive"></a>
+		<a href="galeria/foto-080.jpg" data-lightbox="roadtrip"><img src="galeria/thumb-080.jpg" class="img-responsive"></a>
+	</div>
+</section>
+<!-- END GALERIA -->
+
+<!-- START PATROCINIO -->
+<section id="patrocinio">
+	<h2 class="text-center text-uppercase wow fadeIn">Patrocinadores</h2>
+	<h4 class="text-center">Empresas que se preocupam com a educação em nosso país.</h4>
+
+	<div id="master" class="row text-center">
+		<h3>Master</h3>
+	
+		<div class="container">
+			<div class="col-md-4">
+				<img src="imagens/parceiros/axtelecom.png"  class="img-responsive" >
+				<p>Internet na qualidade e quantidade que você precisa. Simples e justo.</p>
+				<p><strong>(35) 3295-9779</strong></p>
+				<p><a href="http://www.axtelecom.com.br" class="btn btn-danger btn-radius" role="button" target="_blank">Acesse o site</a></p>
+				<p><a href="https://www.facebook.com/Axtelecom" class="btn btn-primary btn-radius" role="button" target="_blank">Curta a página</a></p>
+			</div>
+			<div class="col-md-8" >
+				<video src="imagens/parceiros/axtelecom-video.mp4" controls>
+				</video>
+			</div>
+		</div>	
+	</div>
+
+	<div id="diamante" class="row text-center">
+		<h3>Diamante</h3>
+		<div class="conatiner">
+			<div class="col-md-5 col-md-offset-1">
+				<div class="col-md-6">
+					<img src="imagens/parceiros/unimed.png" class="img-responsive center-block">
+				</div>
+				<div class="col-md-6">
+					<img src="imagens/parceiros/ans.jpg" class="img-responsive center-block">
+				</div>
+				<p>Melhor operadora do Sul de Minas <br>Segunda melhor de Minas Gerais <br><strong>(35) 3295-0700</strong></p>
+				<p><a href="http://www.unimedmachado.coop.br" class="btn btn-success btn-radius" role="button" target="_blank">Acesse o site e saiba mais</a></p>
+				
+			</div>			
+			<div class="col-md-5">
+				<img src="imagens/parceiros/van.jpg" class="img-responsive center-block">
+				<p>Van FM 103,1 <br>(35) 3219-2250</p>
+				<p><a href="http://www.vanfm.com.br/" class="btn btn-danger btn-radius" role="button" target="_blank">Acesse o site</a>
+				<a href="https://www.facebook.com/vanfmoficial" class="btn btn-primary btn-radius" role="button" target="_blank">Curta a página</a>
+								</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="prata" class="row text-center">
+		<h3>Prata</h3>
+		
+		<div class="container">
+			<div class="col-md-4">
+				<a href="http://www.imobiliariaalvorada.com.br/" target="_blank">
+					<img src="imagens/parceiros/imo-alvorada.jpg" class="img-responsive">
+					<h4>Imobiliária Alvorada</h4>
+					<p>Administração de Imóveis</p>
+					<p>(35) 3295-2799</p>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="http://www.grupohamiltonimoveis.com.br" target="_blank">
+					<img src="imagens/parceiros/hamilton.png" class="img-responsive">
+					<h4>Grupo Hamilton Imóveis</h4>
+					<p>Administração e Corretagem de Imóveis.<br>Machado (35) 3295-6653<br>Alfenas (35) 3291-2175</p>
+				</a>
+			</div>
+			<div class="col-md-3">
+				<a href="http://www.supermidiaalfenas.com.br" target="_blank">
+					<img src="imagens/parceiros/supermidia.png" class="img-responsive">
+					<div class="caption">
+					<h4>SuperMídia Alfenas</h4>
+					<p>Especializada em comunicação visual com impressão digital em grande formato.</p>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="bronze" class="row text-center">
+		<h3>Bronze</h3>
+		
+		<div class="container">
+			<div class="col-md-4">
+				<a href="http://mch.ifsuldeminas.edu.br" target="_blank">
+					<img src="imagens/parceiros/coetagri.png" class="img-responsive">
+					<p>(35) 3295-9717 Ramal 9700</p>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="https://www.facebook.com/conteto.machado" target="_blank">
+					<img src="imagens/parceiros/conteto.jpg" class="img-responsive center-block">
+					<p>(35) 3295-1123</p>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="www.cristalsupermercado.com.br" target="_blank">
+					<img src="imagens/parceiros/cristal.jpg" class="img-responsive">
+					<p>(35) 3295-1759</p>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="http://www.e-solus.com.br" target="_blank">
+					<img src="imagens/parceiros/esolus.png" class="img-responsive">
+					<p>(35) 3332-6822</p>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="http://www.gamenacional.com.br" target="_blank">
+					<img src="imagens/parceiros/game-nacional.png" class="img-responsive">
+					<p>(35) 98817-0824</p>
+				</a>
+			</div>
+		</div>
+</section>
+<!-- END PATROCINIO -->
+
+<!-- START APOIO -->
+<section id="apoio" class="row text-center">
+	<h2>Realização</h2>
+	<div class="container">
+		<div class="col-md-6">
+			<div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/informaticaifmachado/" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=false&amp;app_id=1511912409075730&amp;container_width=623&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Finformaticaifmachado%2F&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=false&amp;small_header=false"><span style="vertical-align: bottom; width: 340px; height: 130px;"><iframe name="f156f40e7dc5ebc" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:page Facebook Social Plugin" src="https://web.facebook.com/v2.8/plugins/page.php?adapt_container_width=false&amp;app_id=1511912409075730&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F87XNE1PC38r.js%3Fversion%3D42%23cb%3Df8c9ed62df0878%26domain%3Dcomp.mch.ifsuldeminas.edu.br%26origin%3Dhttp%253A%252F%252Fcomp.mch.ifsuldeminas.edu.br%252Ff2c359d9d386bec%26relation%3Dparent.parent&amp;container_width=623&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Finformaticaifmachado%2F&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=false&amp;small_header=false" style="border: none; visibility: visible; width: 340px; height: 130px;" class=""></iframe></span></div>
+		</div>
+		<div class="col-md-6">
+			<a href="http://mch.ifsuldeminas.edu.br" target="_blank"><img src="imagens/parceiros/if-machado.png" class="img-responsive img-fundo"></a>
+		</div>
+		
+	</div>
+</section>
+<!-- END APOIO -->
+
+<!-- START CONTATO -->
+<section id="contato" class="container">
+	<h2 class="text-uppercase text-center">Contato</h2>
+	<form action="" class="col-md-5 form-horizontal">
+			<div class="form-group">
+				<label  class="control-label">Nome</label>
+				<input type="text" class="form-control">
+			</div>
+			<div class="form-group">
+				<label class="control-label">Email</label>
+				<input type="email" class="form-control">
+			</div>
+			<div class="form-group">
+				<label class="control-label">Mensagem</label>
+				<textarea class="form-control"></textarea>
+			</div>
+			<div class="text-center">
+				<div class="btn-group">
+					<input type="submit" value="enviar" class="btn btn-success btn-lg btn-radius">
+				</div>
+				<div class="btn-group">
+					<input type="reset" value="limpar" class="btn btn-danger btn-lg btn-radius">
+				</div>
+			</div>
+		</form>
+
+	<section id="mapa" class="col-md-7">
+		<iframe class="googlemaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3707.2732508163067!2d-45.89949828548201!3d-21.692110685642838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ca6b310a64f323%3A0x9ecc3a078d5481f5!2sIFSULDEMINAS+-+Campus+Machado!5e0!3m2!1spt-BR!2sbr!4v1480717318607"></iframe>
+	</section>
+</section>
+<!-- END CONTATO -->
+
+<!-- START RODAPE -->
+<footer id="rodape" class="row text-center">
+		<p>Feito com <span class="glyphicon glyphicon-heart wow pulse" data-wow-delay="300ms" data-wow-iteration="infinite" data-wow-duration="1s"></span> por <a href="http://www.mch.ifsuldeminas.edu.br" target="_blank">Informática Instituto Federal Campus Machado</a></p>
+</footer>
+<!-- END RODAPE -->
+</div>	
+</body>
+</html>
